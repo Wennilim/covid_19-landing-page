@@ -7,7 +7,7 @@ import { Prevention } from "src/components/Prevention";
 import { Contact } from "src/components/Contact";
 import { Footer } from "src/components/Footer";
 import { Navbar } from "src/components/Navbar";
-import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+import { ScrollToTop } from "src/components/ScrollToTop";
 
 const App = () => {
   return (

@@ -32,7 +32,7 @@ const ScrollToTop = () => {
     showBtn && (
       <AiOutlineArrowUp
         color="white"
-        className="fixed bottom-10 right-5 z-30 animate-bounce rounded-full w-14 h-14  bg-[#FA5652] p-3 shadow-sm"
+        className="fixed bottom-10 cursor-pointer right-5 z-30 animate-bounce rounded-full w-14 h-14  bg-[#FA5652] p-3 shadow-sm"
         onClick={goToTop}
       />
     )

@@ -5,7 +5,11 @@ const Contact = () => {
     <section id="contact">
       <div className="flex flex-col w-full py-16">
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-          <img src="/assets/map.png" alt="map" className="w-[70%] md:w-[50%] relative" />
+          <img
+            src="/assets/map.png"
+            alt="map"
+            className="w-[70%] md:w-[50%] relative"
+          />
           <div className="lg:absolute lg:right-[350px] flex flex-col bg-white w-[250px] p-4 h-[300px] shadow-lg rounded-lg">
             <h3 className="text-[20px] p-3">Live Reports</h3>
             <div className="flex flex-col gap-4">
@@ -55,8 +59,12 @@ const Contact = () => {
           <div className="text-[#0C6C44] font-bold text-[20px] py-2">
             Let us help you
           </div>
-          <div className="flex relative bg-white shadow-lg w-[350px] px-4 py-2 rounded-3xl justify-between">
-            <input placeholder="demo@example.com" className="self-center focus:border-none" />
+
+          <div className="flex relative bg-white shadow-lg md:w-[350px] p-4 py-2 rounded-3xl justify-between">
+            <input
+              placeholder="demo@example.com"
+              className="self-center focus:border-none"
+            />
             <button className="bg-[#FA5652] rounded-3xl text-white flex px-6 py-2">
               Send
             </button>

@@ -59,7 +59,7 @@ function OddComp({ img, number, title, description }) {
             </div>
             <div className="font-bold text-[28px] ">{title}</div>
           </div>
-          <p className="flex text-[14px]  px-10">{description}</p>
+          <p className="flex text-[14px]  md:px-10">{description}</p>
         </div>
       </div>
       <img src={img} alt="image" className="w-[40%] py-10 self-center" />
@@ -79,7 +79,7 @@ function EvenComp({ img, number, title, description }) {
             </div>
             <div className="font-bold text-[28px] ">{title}</div>
           </div>
-          <p className="flex text-[14px]  px-10">{description}</p>
+          <p className="flex text-[14px]  md:px-10">{description}</p>
         </div>
       </div>
     </div>
